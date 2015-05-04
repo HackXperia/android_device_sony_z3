@@ -18,6 +18,10 @@ include device/sony/shinano-common/BoardConfigCommon.mk
 # inherit from the proprietary version
 #-include vendor/sony/z3/BoardConfigVendor.mk
 
+# Custom
+CM_BUILDTYPE := NIGHTLY
+TARGET_UNOFFICIAL_BUILD_ID := David_Vaz
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D6602,D6603,D6633,D6643,z3,leo
 
